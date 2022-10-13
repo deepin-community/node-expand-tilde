@@ -1,0 +1,44 @@
+node-expand-tilde (2.0.2+~cs2.0.3-2) unstable; urgency=medium
+
+  * Team upload
+  * Add ctype=nodejs to component(s)
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+
+ -- Yadd <yadd@debian.org>  Mon, 08 Nov 2021 17:05:04 +0100
+
+node-expand-tilde (2.0.2+~cs2.0.3-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Apply multi-arch hints.
+    + node-expand-tilde: Add Multi-Arch: foreign.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Use dh-sequence-nodejs auto test & install
+  * Embed components: homedir-polyfill parse-passwd
+  * New upstream version 2.0.2+~cs2.0.3
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 30 Oct 2020 21:13:25 +0100
+
+node-expand-tilde (2.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #842054)
+
+ -- Sruthi Chandran <srud@disroot.org>  Tue, 25 Oct 2016 20:05:19 +0530
